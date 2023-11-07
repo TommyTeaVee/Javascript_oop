@@ -1,5 +1,5 @@
 //Let's create a constructor function
-function Person(name, age)  {
+function Person(name, age)  {  //Parent
     this.name = name;
     this.age = age;
 }
@@ -19,7 +19,7 @@ let  johny ={
 
 };
 
-function Students(name, age, course) {
+function Students(name, age, course) { // Polymorphic
     this.name = name;
     this.age = age;
     this.course = course;
